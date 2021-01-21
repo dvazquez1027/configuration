@@ -1,3 +1,9 @@
 spring:
   zipkin:
     base-url: http://log-aggregator:9411/
+eureka:
+  client:
+    service-url:
+      defaultZone: http://service-registry:8761/eureka
+  instance:
+    hostname: service-registry
