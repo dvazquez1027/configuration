@@ -1,9 +1,3 @@
 spring:
   zipkin:
     base-url: http://log-aggregator:9411/
-eureka:
-  client:
-    register-with-eureka: true
-    fetch-registry: true
-    service-url:
-      defaultZone: http://service-registry:8761/eureka
